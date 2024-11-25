@@ -2,12 +2,14 @@
   "name": "elfsight-test-task",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://Nikolay-Davydov.github.io/elfsight-test-task/",
   "scripts": {
     "predeploy": "npm run build",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "deploy": "gh-pages -d build",
     "format": "npx prettier --write \"src/**/*.js\""
+    
   },
   "dependencies": {
     "axios": "^0.27.2",
